@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+}
+header{
+    background-color: #e4dede;
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    position: fixed;
+    z-index: 8;
+}
+header div{
+    background-color: #e4dede;
+}
+#menu{
+    background: #e4dede;
+    display: flex;
+    padding-left: 3vw;
+    width: 20vw;
+    
+}
+#menu img{
+    width: 100%;
+    background-color: #e4dede;
+}
+#titulo{
+    width: 80vw;
+    background-color: #e4dede;
+}
+
+h1{
+    background-color: #e4dede;
+    color: #000;
+    height: 4vh;
+    padding-top: 2vh;
+}
+nav{
+    padding-top: 12vh;
+    position: absolute;
+    width: 100vw;
+    z-index: -1;
+    
+}
+nav ul{
+    background-color: #c0bcbc;
+
+}
+nav ul li{
+    background-color: #c0bcbc;
+    padding: 1vh 0 1vh 4vw;
+    border: 1px solid #7e7d7d;
+    
+}
+nav ul li a{
+    background-color: #c0bcbc;
+    text-decoration: none;
+    color: #000;
+}
+main{
+    width: 100vw;
+}
+#inicio{
+    padding-top: 12vh;
+}
+h2{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.filmes{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.filmes #item{
+    width: 97vw;
+    border: 1px solid white;
+    background-color: #333;
+    display: flex;
+    margin: 1vh 1vw 1vh 1vw;
+}
+.filmes #imagens{
+    width: 21vw;
+}
+
+img{
+    padding-top: 1vh;
+    width: 100%;
+}
+#legenda{
+    width: 80vw;
+    background-color: #333;
+}
+h3{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    padding-left: 2vw;
+    background-color: #333;
+}
+p{
+    background-color: #333;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 2vw;
+}
+.series{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.series #item{
+    width: 97vw;
+    border: 1px solid white;
+    background-color: #333;
+    display: flex;
+    margin: 1vh 1vw 1vh 1vw;
+}
+.series #imagens{
+    width: 21vw;
+}
+.historico{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+.historico #item{
+    width: 97vw;
+    border: 1px solid white;
+    background-color: #333;
+    display: flex;
+    margin: 1vh 1vw 1vh 1vw;
+}
+.historico #imagens{
+    width: 21vw;
+}
+footer{
+    width: 100vw;
+    background-color: #e4dede;
+}
+footer #rodapé{
+    text-align: center;
+    color: #000;
+    background-color: #e4dede;
+}
+strong{
+    background-color: #e4dede;
+}
+
+@media only screen and (min-width: 980px){
+    header{
+        flex-flow: none;
+        justify-content: none;
+    }
+    header div h2{
+        text-align: left;
+    }
+    #menu{
+        width: 10vw;
+    }
+    #menu #ft{
+        width: 60%;
+    }
+    #titulo{
+        width: 90vw;
+    }
+    .filmes{
+        width: 100vw;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .filmes #item{
+        width: 30vw;
+        display: block;
+        background-color: #333;
+        
+    }
+    .filmes #item #imagens{
+        width: 100%;
+    }
+    .filmes #item #legenda{
+        width: 100%; 
+    }
+    h3{
+        font-size: 28px;
+    }
+    p{
+        font-size: 22px;
+    }
+    .series{
+        width: 100vw;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .series #item{
+        width: 30vw;
+        display: block;
+        background-color: #333;
+    }
+    .series #item #imagens{
+        width: 100%;
+    }
+    .series #item #legenda{
+        width: 100%; 
+    }
+    .historico{
+        width: 100vw;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .historico #item{
+        width: 30vw;
+        display: block;
+        background-color: #333;
+    }
+    .historico #item #imagens{
+        width: 100%;
+    }
+    .historico #item #legenda{
+        width: 100%; 
+    }
+}
